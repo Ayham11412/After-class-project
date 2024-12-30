@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        fieldset {
+            padding: 40px;
+            width: 200px;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 15px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        input {
+            padding: 15px;
+            border: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <fieldset>
+            Number 1: <input type="number" id="num1"><br><br>
+            Number 2: <input type="number" id="num2">
+            <button onclick="add()" style="color: green;">Add</button><br><br>
+            <button onclick="sub()" style="color: red;">subtract</button><br><br>
+        </fieldset>
+        <fieldset style="margin: top 20px; ">
+            <h2 id="result">Answer will appear here</h2>
+        </fieldset>
+    </center>
+
+    <h1>REAL TIME VALIDATION USING JS</h1>
+    <hr>
+    <form id="loginForm" onsubmit="validate(event)">
+        <!-- Fieldset groups related elements in a form -->
+        <fieldset>
+            <!-- Email input field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <!-- Password input field with a minimum length requirement -->
+            <div>
+                <label for="password">Password:</label>
+                <!-- minlength attribute ensures the password is at least 8 characters long -->
+                <input type="password" id="password" name="password" minlength="8">
+            </div>
+            <!-- Age input field with minimum and maximum value requirements -->
+            <div>
+                <label for="age">Age:</label>
+                <!-- min and max attributes define the acceptable range of ages -->
+                <input type="number" id="age" name="age" min="12" max="50">
+            </div>
+            <!-- Submit button for the form -->
+            <button type="submit">Login</button>
+        </fieldset>
+    </form>
+    <!-- Div for displaying validation messages -->
+    <div id="message"></div>
+    <!-- Link to the external JavaScript file -->
+
+    <script>
+        function add() {
+            let num1 = parseInt(document.getElementById("num1").value);
+            let num2 = parseInt(document.getElementById("num2").value);
+            let result = num1 + num2;
+            document.getElementById("result").innerHTML = result;
+        }
+
+        function sub() {
+            let num1 = parseInt(document.getElementById("num1").value);
+            let num2 = parseInt(document.getElementById("num2").value);
+            let result = num1 - num2;
+            document.getElementById("result").innerHTML = result;
+        }
+        const email = document.getElementById('email').value;
+        const pass = document.getElementById('email').value;
+        const age = document.getElementById('email').value;
+        const msgbox = document.getElementById('email').value;
+
+        let message = '';
+        if (email === '') {
+            message = 'please enter an email,'
+            msgbox.style.color = 'red';
+        } else if (pas === '') {
+            message = 'password must be at least 8 letters';
+            msgbox.style.color = 'red';
+
+        } else if (age === '') {
+            message = 'age must be between 12 & 18';
+            msgbox.style.color = 'red';
+
+
+        }
+
+        else {
+            message = 'login successful';
+            msgbox.style.color = 'green';
+
+
+        }
+        msgbox.innerText = message;
+
+    </script>
+</body>
+
+</html>
