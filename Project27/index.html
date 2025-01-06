@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    let numbers = [2, 6, 9, 0, 5, 1, 7];
+    numbers.sort((a, b) => a - b);
+    console.log(numbers);
+
+    let numbers2 = [2, 6, 9, 0, 5, 1, 7];
+    numbers2.sort((a, b) => b - a);
+    console.log(numbers2);
+
+    // -------------------------------------------------------
+
+
+
+    let Names = ["Gaurav", "Mohammed", "Bellingham", "Ayham"]
+    console.log("sorted according to the first alpha" + Names.sort())
+
+    console.log("sorted in descending order" + Names.sort((a, b) => b.localeCompare(a)))
+    // -------------------------------------------------------
+    let numbers3 = [1, 2, 3, 4, 5,];
+    let doubled = numbers3.map((num) => num * 2);
+    console.log(doubled);
+    </script>
+</body>
+</html>
