@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function divideNumbers(a, b) {
+                try {
+                    if (b === 0) {
+                        throw new Error("Division by zero is not allowed.");
+                    }
+                    return a / b;
+                } catch (error) {
+                    console.error("An error occurred:", error.message);
+                    return 0; 
+                }
+            }
+
+            // Example usage:
+            const result1 = divideNumbers(10, 2); 
+            const result2 = divideNumbers(10, 0); 
+
+    </script>
+</body>
+</html>
