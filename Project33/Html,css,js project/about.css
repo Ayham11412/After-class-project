@@ -1,0 +1,13 @@
+ 
+ h2 ,h1{
+float: right;
+}
+img{
+    width: 600px;
+    float: left;
+}
+p{
+    float: right;
+    font-size: 40px;
+
+}

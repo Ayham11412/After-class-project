@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(0, 0, 53);
+}
+.media-link {
+padding: 1rem;
+max-width: 15rem;
+margin-left: 1rem;
+border: 2px solid tomato;
+border-radius: 0.5rem;
+transition: 0.2s;
+
+}
+.media-link:hover{
+    background-color: darkred;
+    border-bottom: white 1px;
+    box-shadow: rgb(117, 46, 46) 3px 0px 20px;
+}

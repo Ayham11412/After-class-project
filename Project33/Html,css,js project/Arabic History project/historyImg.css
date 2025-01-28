@@ -1,0 +1,122 @@
+.dad{
+                               display: flex;
+                               flex-wrap: wrap;
+}
+
+.cardo{
+
+                               width: 300px;
+                               height: 450px;
+                               border: white solid 4px;
+                               margin-left: 100px;
+                               padding: 20px;
+                               text-align: center;
+                               background-color: rgba(245, 245, 220, 0.568);
+                               margin-left: 100px;
+                               margin-top: 100px;
+}
+ 
+.d-none{ 
+                               display: none;
+                             }
+                             *{
+                               padding: 0;
+                               margin: 0;
+                               box-sizing: border-box;
+}
+
+body{
+
+                               background: url(img/wallpaper2.jpeg);
+                               background-repeat: repeat-y;
+                               background-size: contain;
+                               
+                               
+                               
+}
+.navbar {
+                               overflow: hidden;
+                               background-color: #fff;
+                               padding-bottom: 5px;
+                               height: 70px;
+                             
+                             }
+                             .navbar ul{
+                               float: right;
+                               list-style: none;
+                               width: 100%;
+                             }
+                             .navbar a {
+                               float: right;
+                               color: rgba(170, 150, 34, 0.603);
+                               text-align: center;
+                               padding: 20px 15px;
+                               text-decoration: none;
+                               font-size: 20px;
+                               margin: 6px 14px;
+                             }
+                             .navbar p {
+                               width: 15%;
+                               float: left;
+                               padding-top: 20px;
+                               font-size: large;
+                               color: #70543f;
+                             }
+                             
+                             .logo {
+                               float: right;
+                               width: 110px;
+                               margin: 5px 45px;
+
+                             }
+                             .butt{
+                              background-color: rgba(170, 150, 34, 0.603);
+                              width: 70px;
+                              height: 20px;
+                              margin-top: 30px;
+                              margin-left: 80px;
+                              margin-right: 9px;
+                            float: right;
+                            }
+                            .btn{
+                              position: absolute;
+                              display:block;
+                              top: 0;
+                              left: 0;
+                            }
+                            p{
+                                                           font-size: 20px;
+                            }
+                            .card1{
+                              width: 300px;
+                              height: 500px;
+                              border: white solid 4px;
+                              margin-left: 100px;
+                              padding: 20px;
+                              text-align: center;
+                              background-color: rgba(245, 245, 220, 0.568);
+                              margin-left: 100px;
+                              margin-top: 100px;
+                            }
+                            .card2{
+                              width: 300px;
+                              height: 500px;
+                              border: white solid 4px;
+                              margin-left: 100px;
+                              padding: 20px;
+                              text-align: center;
+                              background-color: rgba(245, 245, 220, 0.568);
+                              margin-left: 100px;
+                              margin-top: 100px;
+                            }
+                            .card3{
+                              width: 300px;
+                              height: 500px;
+                              border: white solid 4px;
+                              margin-left: 100px;
+                              padding: 20px;
+                              text-align: center;
+                              background-color: rgba(245, 245, 220, 0.568);
+                              margin-left: 100px;
+                              margin-top: 100px;
+                            }

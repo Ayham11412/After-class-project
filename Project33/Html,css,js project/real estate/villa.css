@@ -1,0 +1,114 @@
+body {
+                               margin: 0%;
+                             }
+                             /**************navbar****************/
+                             .navbar {
+                               overflow: hidden;
+                               background-color: whitesmoke;
+                               opacity: 0.5;
+                               padding-bottom: 5px;
+                               height: 70px;
+                             
+                             }
+                             .navbar ul{
+                               float: right;
+                               list-style: none;
+                               width: 50%;
+                               
+                             }
+                             .navbar a {
+                               float: right;
+                               color: rgb(114, 83, 62);
+                               text-align: center;
+                               padding: 20px 15px;
+                               text-decoration: none;
+                               font-size: 17px;
+                               margin-right: 30px;
+                             }
+                             .navbar p {
+                               width: 15%;
+                               float: left;
+                               padding-top: 20px;
+                               font-size: large;
+                               color: #70543f;
+                             }
+                             
+                             .logo {
+                               float: left;
+                               width: 63px;
+                               margin: 10px 15px;
+                             }
+                             
+                             /**************end navbar****************/
+                             /*************************banner*/
+                             .home-img {
+                               width: 100%;
+                               opacity: .4;
+                             }
+                             .gfg {
+                               margin: 3%;
+                               position: relative;
+                             }
+                             .first-txt {
+                               position: absolute;
+                               top: 15%;
+                               font-size: 60px;
+                               color: rgb(114, 83, 62);
+                               background-color: white ;
+                               padding: 0%;
+                               opacity: 50%;
+                             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                             }
+                             .dad{
+                               display: flex;
+                               flex-wrap: wrap;
+                               align-items: center;
+                             }
+                             
+                             .cardo{
+                             
+                               width: 250px;
+                               height: 350px;
+                               border: white solid 4px;
+                               margin-left: 100px;
+                               padding: 20px;
+                               text-align: center;
+                               background-color: whitesmoke;
+                               margin-left: 100px;
+                               margin-top: 100px;
+                               align-items: center;
+                             }
+                             .cimg{
+                               height: 300px;
+                               width: 200px;
+                               opacity: 55%;
+                             }
+                             .clink{
+                               color: rgb(114, 83, 62);
+                               text-align: center;
+                               padding: 55px 25px;
+                               padding-top: 200px;
+                               font-size: 20px;
+                               text-decoration: none;
+                             }
+                             .email{
+                                                            color: blue;
+                             }
+                             .cardor{
+                               width: 250px;
+                               height: 350px;
+                               border: white solid 4px;
+                               margin-left: 100px;
+                               padding: 20px;
+                               padding-bottom: 40px;
+                               text-align: center;
+                               background-color: whitesmoke;
+                               margin-left: 100px;
+                               margin-top: 100px;          
+                             }
+                             .landvilla{
+                              
+                              font-size: 17px;
+                              text-decoration: blue;
+                             }
+                             

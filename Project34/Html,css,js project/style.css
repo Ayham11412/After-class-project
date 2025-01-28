@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(51, 40, 40);
+    
+}
+
+.navigation-link{
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(165, 126, 0);
+    transition: 0.5s ease;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(
+https://img.freepik.com/premium-photo/cloud-with-pastel-colour_66899-1161.jpg?semt=ais_hybrid) ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h5{
+    color: white;
+}
+span{
+    color: tomato;
+    font-size: 27px;
+}
+.tomato{
+    color: tomato;
+}

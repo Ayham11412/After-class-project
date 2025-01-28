@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background: url(img/wallpaper2.jpeg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  
+  
+  
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  padding-bottom: 5px;
+  height: 70px;
+
+}
+.navbar ul{
+  float: right;
+  list-style: none;
+  width: 100%;
+}
+.navbar a {
+  float: right;
+  color: rgba(170, 150, 34, 0.603);
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 6px 14px;
+}
+.navbar p {
+  width: 15%;
+  float: left;
+  padding-top: 20px;
+  font-size: large;
+  color: #70543f;
+}
+
+.logo {
+  float: right;
+  width: 110px;
+  margin: 5px 45px;
+
+}
+.d-none{ 
+  display: none;
+}
+.butt{
+  background-color: rgba(170, 150, 34, 0.603);
+  width: 70px;
+ height: 20px;
+ margin-top: 30px;
+ margin-left: 80px;
+ margin-right: 9px;
+float: right;
+}
+.btn{
+ position: absolute;
+ display:block;
+ top: 0;
+ left: 0;
+}
+.f-parg{
+  font-size: 100px;
+  color: #fffffff6;
+  font-family: 'Aref_Ruqaa';
+  margin-top: 90px;
+  text-align: center;
+  
+
+}
+@font-face{
+                               font-family: 'Aref_Ruqaa';
+                               src: url("Aref_Ruqaa/ArefRuqaa-Bold.ttf");
+}
+.s-parg{
+  font-size: 45px;
+  color: #000000c2;
+  font-family: 'Aref_Ruqaa';
+  margin-top: 90px;  
+text-align: center;
+float: right;                       
+}
+.en{
+    text-align: left;
+    text-align: 70px;
+}
+.tit{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  /* display: block; */
+/* margin-right: 1cm; */
+}
+
+
+
+
